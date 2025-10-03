@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.inlineSuggest.edits.renderSideBySide": "auto",
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "editor.inlineSuggest.experimental.showOnSuggestConflict": "never",
+    "editor.inlineSuggest.suppressSuggestions": true
+}

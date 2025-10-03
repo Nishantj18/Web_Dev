@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(220, 212, 124);
+}
+
+h1 {
+    color :white;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(197, 241, 78);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+    color:white;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+tr:nth-child(1) {
+    background-color:white;
+    color: black;
+}
+
+/* First row after the header */
+tr:nth-child(2) {
+    background-color: #09be55;
+    color: white;
+}
+
+/* Second row after the header */
+tr:nth-child(3) {
+    background-color: #0c70c1dc;
+    color: white;
+}
+
+/* Third row after the header */
+tr:nth-child(4) {
+    background-color: white;
+}
+
+/* Third row after the header */
+tr:nth-child(5) {
+    background-color: #09be55;
+    color:white;
+}
+
+/* Third row after the header */
+tr:nth-child(6) {
+    background-color: #09be55;
+    color: white;
+}
+
+/* Third row after the header */
+tr:nth-child(7) {
+    background-color: #0c70c1dc;
+    color: white;
+}
+
+/* ...add more as needed... */
