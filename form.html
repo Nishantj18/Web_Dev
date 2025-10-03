@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonex Stringing Form</title>
+</head>
+<body>
+    <h1>Stringing Form</h1>
+    <form action="">
+        <h3>Name of your racket</h3>
+        <input type="text" name="racket" id="racket" minlength="5" required>
+        <p>
+        <input type="radio" name="string" id="bg65" value="Yonex Bg 65 Titanium" >
+        <label for="bg65">Yonex Bg 65 Titanium</label>
+        <input type="radio" name="string" id="bg65" value="Yonex Bg 66 Ultimax" checked>
+        <label for="bg65">Yonex Bg 66 Ultimax</label>
+        <input type="radio" name="string" id="ex65" value="Yonex Exbolt 65">
+        <label for="ex65">Yonex Exbolt 65</label>
+        </p>
+        <p>
+        <label for="Tension">Select String Tension</label>
+        <select name="Tension" id="Tension">
+            <option value="select">--Please Select Proper Tension--</option>
+            <option value="22">22 lbs</option>
+            <option value="23">23 lbs</option>
+            <option value="24">24 lbs</option>
+            <option value="25">25 lbs</option>
+            <option value="26">26 lbs</option>
+            <option value="27">27 lbs</option>
+            <option value="28">28 lbs</option>
+            <option value="29">29 lbs</option>
+            <option value="30">30 lbs</option>
+        </select>
+        </p>
+        <input type="checkbox" id="agree" name="agree to terms and conditions" checked>
+        <label for="agree">I agree to all conditions</label>
+        <button>Submit</button>
+    </form>
+    <!-- <h2> Select the tension </h2> -->
+    <form action="https://www.yonex.com/badminton/strings">
+        <!-- <label for="mains">Mains</label>
+        <input type="number" name="mains" id="mains" min="22">
+        <label for="mains">Cross</label>
+        <input type="number" name="cross" id="cross" min="22"> -->
+        <p>
+        <label for="feedback">Give us a Feedback</label>
+        <br>
+        <textarea name="feedback" id="feedback" rows="10" cols="50" placeholder="Type something here">  
+        </textarea>
+        </p>
+    </form>
+    <form action="https://www.yonex.com/catalogsearch/result/">
+        <label for="q">Search on Yonex Website</label>
+        <input type="text" name="q" id="q">
+    </form>
+</body>
+</html>
